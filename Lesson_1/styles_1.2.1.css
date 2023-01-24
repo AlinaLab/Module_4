@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Playfair Display Bolt Italic";
+    src: url("PlayfairDisplay-BoldItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    font-family: "Playfair Display Bolt Italic", sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+li {
+    text-decoration: none;
+}
+
+ul.menu-main {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+li {
+    padding: 10px;
+}
+
+li:hover {
+    color: green;
+}

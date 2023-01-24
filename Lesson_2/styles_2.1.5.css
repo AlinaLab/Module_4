@@ -1,0 +1,91 @@
+.container {
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    background: #424242;
+    position: relative;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+.position_1 {
+    width: 100px;
+    height: 100px;
+    padding: -15px;
+    background: green;
+    position: absolute;
+    top: 300px;
+    left: 0;
+}
+.position_2 {
+    width: 100px;
+    height: 100px;
+    padding: -15px;
+    background: red;
+    position: absolute;
+    top: 150px;
+    left: 0;
+}
+.position_3 {
+    width: 100px;
+    height: 100px;
+    padding: -15px;
+    background: royalblue;
+    position: absolute;
+    top: 300px;
+    right: 0;
+}
+.position_4 {
+    width: 100px;
+    height: 100px;
+    padding: -15px;
+    background: mediumorchid;
+    position: absolute;
+    top: 150px;
+    right: 0;
+}
+.position_5 {
+    width: 100px;
+    height: 100px;
+    padding: -15px;
+    background: deeppink;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.position_6 {
+    width: 100px;
+    height: 100px;
+    padding: -15px;
+    background: deepskyblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.position_7 {
+    width: 100px;
+    height: 100px;
+    padding: -15px;
+    background: darkcyan;
+    position: absolute;
+    top: 0;
+    left: 150px;
+}
+.position_8 {
+    width: 100px;
+    height: 100px;
+    padding: -15px;
+    background: tomato;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+.position_9 {
+    width: 100px;
+    height: 100px;
+    padding: -15px;
+    background: yellow;
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
