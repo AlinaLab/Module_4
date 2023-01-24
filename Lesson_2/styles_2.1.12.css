@@ -1,0 +1,58 @@
+.group {
+    display: flex;
+    flex-direction: column;
+}
+
+.yellow {
+    width: 200px;
+    height: 150px;
+    background-color: yellow;
+    margin: 0;
+}
+
+.green {
+    width: 200px;
+    height: 150px;
+    background-color: green;
+    margin: 0;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .group {
+        /*display: flex;*/
+        flex-direction: column;
+    }
+
+    .yellow {
+        width: 250px;
+        height: 200px;
+        /*background-color: yellow;*/
+        margin: 0;
+    }
+
+    .green {
+        width: 250px;
+        height: 200px;
+        /*background-color: green;*/
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .group {
+        /*display: flex;*/
+        flex-direction: row;
+    }
+
+    .yellow {
+        width: 450px;
+        height: 400px;
+        /*background-color: yellow;*/
+    }
+
+    .green {
+        width: 150px;
+        height: 400px;
+        /*background-color: green;*/
+    }
+}

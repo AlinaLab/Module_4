@@ -1,0 +1,20 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    background: url("https://www.dreamsbook.com.ua/uploads/gallery/27/af3a927d34066bc6f8e0934fff89140c.jpg") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.gradient {
+    background: linear-gradient(to bottom right, blue, pink, 70%, rgba(0, 0, 0, 0.3));
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

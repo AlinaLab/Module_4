@@ -1,0 +1,15 @@
+div p {
+    color: #0E1116;
+}
+
+li:nth-child(n+1) {
+    background-color: #88292F;
+}
+
+li:nth-child(2n+1) {
+    background-color: #5DB7DE;
+}
+
+li:nth-child(3n+1) {
+    background-color: #0D5D56;
+}
