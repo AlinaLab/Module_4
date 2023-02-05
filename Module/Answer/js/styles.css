@@ -3,7 +3,7 @@
   width: 768px;
   min-height: 100px;
   margin: 0 auto;
-  background-color: azure;
+  background: linear-gradient(45deg, #EECFBA, #C5DDE8);
   display: flex;
   flex-flow: column;
   padding: 10px;
@@ -11,10 +11,15 @@
   border: 1px solid black;
 }
 
+h1 {
+  text-align: center;
+  color: SaddleBrown;
+}
+
 .todo {
   padding: 15px;
   border-radius: 8px;
-  border: 1px solid black;
+  border: 3px solid #edf4f8;
   margin-bottom: 10px;
   position: relative;
 }
@@ -35,10 +40,18 @@
 
 h2 {
   margin: 5px 0;
+  color: #3b4245;
+}
+
+.textcolor {
+  color: #626e74;
 }
 
 .formWrapper {
+  width: 744px;
+  height: 150px;
   margin-top: 20px;
+  margin-bottom: 10px;
   background-color: lavenderblush;
 }
 
